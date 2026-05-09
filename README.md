@@ -6,14 +6,12 @@
 ![Automation](https://img.shields.io/badge/Project-Business%20Automation-success)
 
 ---
-
 ## Project Overview
 
 This project is an end-to-end automated sales reporting pipeline built using Python.  
 The system ingests raw sales CSV data, performs data cleaning and KPI analysis using Pandas, generates professionally formatted multi-sheet Excel reports using openpyxl, and supports automated email delivery using smtplib.
 
 The project simulates a real-world business reporting workflow commonly used in analytics and data engineering teams.
-
 ---
 
 ## Features
@@ -123,51 +121,39 @@ The generated Excel report contains:
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/automated-sales-report-generator.git
+git clone https://github.com/virajpatil23/Automated-sales-report-generator.git
 ```
 
 ---
-
 ### 2. Install Dependencies
-
 ```bash
 pip install pandas numpy openpyxl
 ```
 
 ---
-
 ### 3. Generate Sample Sales Data
-
 ```bash
 python generate_data.py
 ```
 
 This creates:
-
 ```text
 sales_data.csv
 ```
-
 ---
-
 ### 4. Run the Automated Report Generator
-
 ```bash
 python sales_report_generator.py
 ```
 
 This generates:
-
 ```text
 sales_report_YYYYMMDD.xlsx
 ```
 
 ---
-
 ## Automation Support
-
 The project supports weekly scheduling using cron jobs.
-
 ### Example Cron Schedule
 
 ```bash
@@ -177,9 +163,7 @@ The project supports weekly scheduling using cron jobs.
 This runs the pipeline automatically every Monday at 8:00 AM.
 
 ---
-
 ## Screenshots
-
 ### KPI Summary Report
 _Add screenshots here_
 
@@ -190,7 +174,6 @@ _Add screenshots here_
 _Add screenshots here_
 
 ---
-
 ## Key Learning Outcomes
 
 - Python-based business automation
@@ -214,7 +197,5 @@ _Add screenshots here_
 ---
 
 ## Author
-
 **Viraj Patil**
-
 ```
